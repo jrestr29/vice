@@ -1,1 +1,1 @@
-header.masthead{min-height:100vh!important}
+@media (min-width:992px){body header.masthead{min-height:100vh!important}body nav.navbar#mainNav{opacity:0;transition:opacity 1s;-webkit-transition:opacity 1s;background-color:#fff;padding-top:11px;padding-bottom:11px;border-bottom:1px solid #000}body nav.navbar#mainNav.load{opacity:1}body nav.navbar#mainNav a{color:#000}}

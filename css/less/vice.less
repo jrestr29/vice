@@ -1,5 +1,36 @@
-header {
-	&.masthead {
-		min-height: 100vh !important;
+
+@media (min-width: 992px) {
+	body {
+		header {
+			&.masthead {
+				min-height: 100vh !important;
+			}
+		}
+
+		nav {
+			&.navbar#mainNav  {
+				opacity: 0;
+
+				&.load {
+					opacity: 1;
+				}
+							
+				transition: opacity 1s;
+    			-webkit-transition: opacity 1s; /* Safari */
+
+				background-color: #ffffff;
+				padding-top: 11px;
+				padding-bottom: 11px;
+				border-bottom: 1px solid #000;
+
+				a {
+					color: #000000;
+				}
+
+			}
+			
+		}
 	}
+	
 }
+
